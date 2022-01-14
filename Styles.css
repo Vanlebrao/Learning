@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Monteserrat', sans-serif;
+}
+
+.upper-case {
+  background-image: url('./dev.png');
+  background-size: cover;
+  height: 90vh;
+}
+
+.cabecalho {
+  margin-top: 25px;
+  margin-left: 35px;
+}
+.titulo-cabecalho {
+  font-size: 24px;
+  color: #ffffff;
+  display: inline;
+}
+
+.subtitulo {
+  margin-top: 200px;
+  margin-left: 30px;
+}
+
+.link-cabecalho {
+  font-size: 14px;
+  color: #ffffff;
+  display: inline;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 58px;
+  color: #ffffff;
+  position: relative;
+  top: 280px;
+  margin-left: 35px;
+}
+
+form {
+  opacity: 0;
+  transition: opacity 1s linear;
+  background-color: #ffffff;
+  border-radius: 10px;
+  float: right;
+  padding: 20px;
+  margin-right: 50px;
+  position: relative;
+  bottom: 70px;
+}
+
+.mostrar-formulario {
+  opacity: 1;
+}
+
+input {
+  display: block;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+textarea {
+  display: block;
+  height: 80px;
+  width: 250 px;
+  background: #f9f9f9;
+  border: 1 px solid #e6e6e6;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.titulo-formulario {
+  font-size: 24px;
+  color: #252b42;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+label {
+  font-size: 14px;
+  color: #252b42;
+}
+
+button {
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #40bb15;
+  color: #ffffff;
+}
+
+.caixa-central {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+#titulo-meio {
+  font-size: 40px;
+  color: #252b42;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #a9d6ff;
+}
+
+.titulo-card {
+  background: #219653;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+ul {
+  padding: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.caixa-inferior {
+  background-color: #00095d;
+}
+
+#titulo-inferior {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+.paragrafo-inferior {
+  color: #ffffff;
+  font-size: 28px;
+  text-align: justify;
+  padding: 20px 50px 50px 50px;
+}
